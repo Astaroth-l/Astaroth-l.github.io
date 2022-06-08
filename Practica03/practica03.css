@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(12, 72, 100);
+}
+
+#pregunta{
+    font-weight: 600;
+    color: white;
+}
+
+img{
+    width: 10%;
+}
