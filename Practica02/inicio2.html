@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Regalón</title>
+    <script src="https://kit.fontawesome.com/e9979fc890.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="practica02.css">
+    <link rel="icon" href="/Imagenes/5558580.png">
+</head>
+<body style="background-color: rgba(196, 155, 67, 0.582) ;">
+    <header data-aos="fade-down-left">
+        <div class="header__superior">
+            <a href="#">
+            <div class="logo">
+                <img src="/Imagenes/png-clipart-ticket-concert-animation-ticket-logo-cartoon2.png" alt="">
+            </div>
+            </a>
+            <div class="search">
+                <input type="search" placeholder="¿Qué deseas buscar?">
+            </div>
+        </div>
+        <div class="container__menu">
+            <div class="menu">
+                <input type="checkbox" id="check__menu">
+                <label for="check__menu" id="label__check">
+                    <i class="fa-solid fa-bars icon__menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html" id="selected"></a></li>
+                        <li><a href="#">Programas</a>
+                            <ul>
+                                <li><a href="/Practica01/Inicio1.html">Gamming House</a></li>
+                                <li><a href="/Practica02/inicio2.html">Juego Regalón</a></li>
+                                <li><a href="/Practica03/inicio3.html">Juego de Preguntas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Ejercicios</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Blogger</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="titulo__1">
+        <h1 class="titulojuego">Juego el Regalón</h1>
+        <p class="texto">Para obtener nuestro premio, deberás elegir el numero correcto, la victoria del mismo dependera la suerte que tenga</p>
+    </div>
+    <div class="cuadro">
+        <p class="texto">Escriba un numero del 1 al 20 :</p>
+        <input type="text" id="numero" placeholder="  Incerte un numero">
+    </div>
+    <div class="boton__1">
+        <button id="boton" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+            <span>Aceptar</span>
+        </button>
+    </div>
+
+    <script src="/Practica02/practica02.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content-container">
+                <h3 class="website-logo">Yeezy</h3>
+                <span class="footer-info">993 495 805</span>
+                <span class="footer-info">sebastian_mn15@hotmail.com</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <span class="menu-title">menu</span>
+                    <a href="" class="menu-item-footer">Home</a>
+                    <a href="" class="menu-item-footer">Courses</a>
+                    <a href="" class="menu-item-footer">Testimonials</a>
+                </div>
+                <div class="footer-content-container">
+                    <span class="menu-title">legal</span>
+                    <a href="" class="menu-item-footer">Privacy Policy</a>
+                    <a href="" class="menu-item-footer">Cookies</a>
+                    <a href="" class="menu-item-footer">Legal Advice</a>
+                </div>
+            </div>
+            
+            <div class="footer-content-container">
+                <span class="menu-title">follow us</span>
+                <div class="social-container">
+                    <a href="https://discord.com/channels/@me" class="social-link">
+                        <img src="/Imagenes/discord.png" alt="" class="sigueme">
+                    </a>
+                    <a href="https://www.instagram.com/anuel/" class="social-link">
+                        <img src="/Imagenes/instagram.png" alt="" class="sigueme">
+                    </a>
+                    <a href="https://www.facebook.com/groups/1818266608372852/?hoisted_section_header_type=recently_seen&multi_permalinks=1977864022413109" class="social-link">
+                        <img src="/Imagenes/facebook.png" alt="" class="sigueme">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <span class="copyright">Copyright 2021 - All rights reserved.</span>
+        </div>
+    </footer>
+</body>
+</html>
